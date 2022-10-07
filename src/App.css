@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-device-width: 480px) {
+  * {
+    overflow-x: hidden;
+  }
+}
